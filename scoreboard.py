@@ -1,0 +1,37 @@
+from turtle import Turtle, Screen
+
+screen = Screen()
+
+class Scoreboard(Turtle):
+
+    def __init__(self):
+        super().__init__()
+        self.score = 0
+        self.penup()
+        self.color("white")
+        self.left_score = 0
+        self.right_score = 0
+        self.update_scoreboard()
+        self.hideturtle()
+
+    def update_scoreboard(self):
+        self.clear()
+        self.goto(-100, 200)
+        self.write(self.left_score, align="center", font=('Courier', 80, 'normal'))
+        self.goto(100, 200)
+        self.write(self.right_score, align="center", font=('Courier', 80, 'normal'))
+
+    def left_point(self):
+        self.left_score += 1
+        self.update_scoreboard()
+
+    def right_point(self):
+        self.right_score += 1
+        self.update_scoreboard()
+
+
+
+    def increase_score(self):
+        self.clear()
+        self.score += 1
+        self.update_scoreboard()
