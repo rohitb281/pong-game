@@ -1,14 +1,14 @@
-🏓 Pong Game in Python (Turtle Graphics)
+# 🏓 Pong Game in Python (Turtle Graphics)
 
 A classic Pong game implementation using Python Turtle graphics, featuring two-player paddle controls, ball physics, and a live scoreboard.
 
-Overview
+# Overview
 
 This project recreates the classic Pong arcade game using Python’s built-in turtle module.
 
 It includes real-time paddle movement, ball collision mechanics, score tracking, and increasing difficulty over time.
 
-Features
+# Features
 * Two-player paddle control (keyboard-based)
 * Ball collision with walls and paddles
 * Score tracking system
@@ -16,12 +16,12 @@ Features
 * Reset and score update when a player misses
 * Smooth animation using screen.tracer()
 
-Tech Stack
+# Tech Stack
 * Language: Python
 * Library: turtle
 * Tools: VS Code / PyCharm, Git
 
-Project Structure
+# Project Structure
 
 pong-game/
 
@@ -38,13 +38,13 @@ pong-game/
 Installation
 
 
-Clone the repository:
+# Clone the repository:
 
 git clone https://github.com/your-username/pong-game.git
 
 cd pong-game
 
-Run the game:
+# Run the game:
 
 python main.py
 
@@ -52,7 +52,7 @@ python main.py
 No external libraries required. Python’s turtle module is included by default.
 
 
-Controls
+# Controls
 
 Player        Move Up	  Move Down
 
@@ -61,7 +61,7 @@ Left Paddle	    W  	        S
 Right Paddle	Up Arrow	Down Arrow
 
 
-Gameplay Rules
+# Gameplay Rules
 
 The ball bounces off paddles and walls.
 
@@ -70,7 +70,7 @@ If a player misses the ball, the opponent scores a point.
 Ball speed increases after every paddle hit.
 
 
-Output Example
+# Output Example
 
 Score displayed at the top of the screen
 
@@ -79,7 +79,7 @@ Ball resets to center after scoring
 Continuous gameplay until window is closed
 
 
-Future Improvements
+# Future Improvements
 
 Add sound effects
 
@@ -92,7 +92,7 @@ Add pause and restart functionality
 Improve paddle physics (angle-based reflection)
 
 
-Known Issues
+# Known Issues
 
 Paddle class contains unused snake-game logic (segments, extend, etc.)
 
