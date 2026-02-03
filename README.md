@@ -1,4 +1,4 @@
-# 🏓 Pong Game in Python (Turtle Graphics)
+## 🏓 Pong Game in Python (Turtle Graphics)
 
 A classic Pong game implementation using Python Turtle graphics, featuring two-player paddle controls, ball physics, and a live scoreboard.
 
@@ -54,9 +54,9 @@ No external libraries required. Python’s turtle module is included by default.
 
 # Controls
 
-Player        Move Up	  Move Down
+Player&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Move Up&nbsp;&nbsp;&nbsp;Move Down
 
-Left Paddle	    W  	        S
+Left Paddle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S
 
 Right Paddle	Up Arrow	Down Arrow
 
