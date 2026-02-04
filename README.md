@@ -8,6 +8,10 @@ This project recreates the classic Pong arcade game using Python’s built-in tu
 
 It includes real-time paddle movement, ball collision mechanics, score tracking, and increasing difficulty over time.
 
+## Demo
+
+![Gameplay](assets/pong-demo.gif)
+
 # Features
 * Two-player paddle control (keyboard-based)
 * Ball collision with walls and paddles
