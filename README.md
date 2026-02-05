@@ -9,6 +9,7 @@ It includes real-time paddle movement, ball collision mechanics, score tracking,
 ## Demo
 
 ![Gameplay](assets/pong-demo.gif)
+
 *Two-player pong with collision physics and dynamic speed increase*
 
 ## Features
